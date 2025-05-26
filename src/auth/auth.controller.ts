@@ -6,7 +6,6 @@ export class AuthController {
   constructor() {}
 
   @Get('google')
-  @UseGuards(GoogleAuthGuard)
   async googleAuth() {
     // Redirects to Google login
   }
